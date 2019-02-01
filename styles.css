@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+    font: 0.8em Courier, sans-serif;
+    color: #39ff14;
+    align-content: center;
+}
+h1 {
+    width: 800px;
+    margin: 20px auto;
+}
+h2 {
+    margin-top: 3px;
+}
+div.frame {
+    width: 800px;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px fuchsia dashed;
+    background-image: url('../images/skull.png');
+    overflow: hidden;
+}
+div.menu, div.content {
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+div.menu {
+    width: 110px;
+    line-height: 40px;
+    vertical-align: top
+}
+div.menu a {
+    color: #FD791B;
+    display: block;
+}
+div.menu a:hover, div.menu a.selected {
+    color: #39ff14;
+}
+div.menu a.selected {
+    text-decoration: none;
+}
+div.content {
+    width: 640px;
+    border-left: 1px fuchsia dashed;
+    overflow-y: scroll;
+}
+div.content p {
+    text-align: justify;
+}
